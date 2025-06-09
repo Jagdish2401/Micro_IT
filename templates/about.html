@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}About Me - Jagdish Hadiyal{% endblock %}
+
+{% block content %}
+<section class="py-5">
+    <div class="container">
+        <h2 class="mb-4">About Me</h2>
+        <div class="row">
+            <div class="col-md-4 d-flex justify-content-center justify-content-md-start align-items-start">
+                <img src="{{ url_for('static', filename='images/profile.jpg') }}" class="img-fluid rounded-circle shadow" alt="Jagdish Hadiyal" style="width: 200px; height: 200px; object-fit: cover; border: 5px solid #2563eb; margin-top: 0;">
+            </div>
+            <div class="col-md-8">
+                <h3 class="mb-2">Jagdish Hadiyal</h3>
+                <p class="mb-1"><strong>B.Tech. Computer Science & Engineering Student</strong> at Charusat University</p>
+                <p class="mb-3">Devbhumi Dwarka, Gujarat, India</p>
+                <ul class="list-unstyled mb-3">
+                    <li><strong>Email:</strong> <a href="mailto:jagdishhadiyal2401@gmail.com">jagdishhadiyal2401@gmail.com</a></li>
+                    <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/jagdish-hadiyal-2401" target="_blank">linkedin.com/in/jagdish-hadiyal-2401</a></li>
+                    <li><strong>GitHub:</strong> <a href="https://github.com/Jagdish2401" target="_blank">github.com/Jagdish2401</a></li>
+                </ul>
+                <p>Hello! I'm <strong>Jagdish Hadiyal</strong>, passionate about software development, problem-solving, and technology. I enjoy building web and mobile applications, learning new programming languages, and working on innovative projects. My interests include web development, data science, and artificial intelligence. I am always eager to learn and collaborate on exciting projects that make a difference.</p>
+                <h5 class="mt-4">Education</h5>
+                <ul>
+                    <li><strong>BAPS Swaminarayan Vidyamandir</strong> (10th: 99.78%, 12th: 95.63%)</li>
+                    <li><strong>GUJCET:</strong> 92.78 PR | ACPC Rank: 2488</li>
+                    <li><strong>Charusat University:</strong> B.Tech. CSE, CGPA: 9.07/10.0 (July 2023 - Present)</li>
+                    <li><strong>Coursework:</strong> Programming Languages, Web Development, Computer Architecture, Comparison of Learning Algorithms</li>
+                </ul>
+                <h5 class="mt-4">Achievements</h5>
+                <ul>
+                    <li>Reliance Foundation Scholar</li>
+                    <li>Foundation for Excellence Scholar (FFE)</li>
+                    <li>Technical Treasure Hunt: 1st Runner-up (IEEE CSPIT) – Showcased problem-solving, teamwork, and analytical skills. <a href="https://drive.google.com/file/d/1GHl9ZVQbcqnIEJO5MQTTch4RNznKHOHl/view" target="_blank">Certificate</a></li>
+                    <li>PyQuest Hackathon: Secured 3rd rank out of 30+ teams in PyQuest Hackathon by resolving key algorithm inefficiencies using advanced Python skills. <a href="https://drive.google.com/file/d/1GCYHzWxJSfF6bylxiLGEvIakzB6aCgsU/view" target="_blank">Certificate</a></li>
+                    <li>NPTEL: Data Structures and Algorithms using Java <a href="https://drive.google.com/file/d/1G-1Fay2fU8Xq-wzRNClKdQhFioqWf7St/edit" target="_blank">Certificate</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %} 
